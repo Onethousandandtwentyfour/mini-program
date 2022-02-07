@@ -1,1 +1,0 @@
-<page-tabbar class="index data-v-57280228" vue-id="8dd740cc-1" current="{{0}}" bind:__l="__l" vue-slots="{{['default']}}"><scroll-view class="sv-box data-v-57280228" scroll-y="{{true}}"><image class="main-img data-v-57280228" src="{{$root.m0}}" mdoe="widthFix" data-event-opts="{{[['tap',[['order',['$event']]]]]}}" bindtap="__e"></image></scroll-view></page-tabbar>

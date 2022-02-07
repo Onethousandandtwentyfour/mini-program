@@ -1,1 +1,0 @@
-<view class="navigate-bar data-v-d113ea20" style="{{$root.s0}}"><view class="nav data-v-d113ea20" style="{{$root.s1}}"><slot></slot></view></view>
