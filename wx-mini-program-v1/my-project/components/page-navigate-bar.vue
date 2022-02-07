@@ -64,6 +64,7 @@ export default {
   .content {
     flex-grow: 1;
     width: 100%;
+    overflow: hidden;
     position: relative;
   }
 }

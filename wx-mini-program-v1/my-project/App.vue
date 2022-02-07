@@ -16,10 +16,14 @@ export default {
 @import "./assets/fonts/iconfont.css";
 @import "./assets/style/reset.css";
 /*每个页面公共css */
-.page,
-.outer {
+.page {
   width: 100vw;
   height: 100vh;
+  position: relative;
+}
+.outer {
+  width: 100%;
+  height: 100%;
   position: relative;
 }
 </style>
