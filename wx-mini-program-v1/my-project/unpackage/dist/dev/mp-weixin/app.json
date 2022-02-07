@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/integral/index",
+    "pages/order-records/index",
+    "pages/mine/index",
+    "pages/order/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "navigationStyle": "custom",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {
+    "page-tabbar": "/components/page-tabbar",
+    "page-navidate-bar": "/components/page-navigate-bar"
+  },
+  "sitemapLocation": "sitemap.json"
+}

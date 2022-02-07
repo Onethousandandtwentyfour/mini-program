@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "navigate-bar": "/components/common/navigate-bar"
+  },
+  "component": true
+}

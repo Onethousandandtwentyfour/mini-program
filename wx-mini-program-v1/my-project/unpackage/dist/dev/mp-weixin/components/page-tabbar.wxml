@@ -1,0 +1,1 @@
+<view class="page page-tabber data-v-da28651e"><view class="content data-v-da28651e"><slot></slot></view><tabbar class="tabber data-v-da28651e" vue-id="6ae33c96-1" current="{{current}}" bind:__l="__l"></tabbar></view>
