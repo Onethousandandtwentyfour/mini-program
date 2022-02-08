@@ -6,25 +6,25 @@
   </view>
 </template>
 <script>
-const { statusBarHeight } = uni.getSystemInfoSync(),
-  { height, top } = uni.getMenuButtonBoundingClientRect();
+import { getTopBarHeight } from "@/utils";
+const { topBarHeight, safeHeight } = getTopBarHeight();
 export default {
   name: "navigate-bar",
   data() {
     return {
-      statusBarHeight: height + statusBarHeight + (top - statusBarHeight) * 2,
+      topBarHeight,
     };
   },
   computed: {
     navigateBarStyle() {
       return {
-        height: this.statusBarHeight + "px",
+        height: this.topBarHeight + "px",
       };
     },
     navStyle() {
       return {
-        height: height + (top - statusBarHeight) * 2 + "px",
-        "line-height": height + (top - statusBarHeight) * 2 + "px",
+        height: safeHeight + "px",
+        "line-height": safeHeight + "px",
       };
     },
   },
